@@ -1,22 +1,36 @@
+/* app.js css */
+.title{
+  color: gold;
+}
 .navbar-nav{
-    margin-left: 400px;
-  }
-  .navbar-brand{
-    margin-left: 50px;
-  }
-  .row{
-    justify-content: center;
-  }
-  /* .displayDiv{
-    margin: none;
-  } */
-  footer{
-    /* height: 20px; */
-    background-color: black;
-    border-top: 1px solid gold;
-    justify-content: center;
+  margin-left: 400px;
+}
+.navbar{
+  /* position: relative; */
+  position: fixed ;
+}
+.navbar-brand{
+  margin-left: 50px;
+  color: gold !important;
+}
+.row{
+  justify-content: center;
+}
+footer{
+  /* height: 20px; */
+  background-color: black;
+  border-top: 1px solid gold;
+  justify-content: center;
     
-  }
+}
+/* card css */
+.card-img-top{
+  background-size: cover;
+}
+
+#descript-block{
+  border: 1px gold solid !important;
+}
   /* @media (max-width: screen-xs-max){ */
     /* .row{
       

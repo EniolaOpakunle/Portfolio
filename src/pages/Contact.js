@@ -11,8 +11,8 @@ import gitHubImage from '../images/GitHub.png'
 
 function Contact() {
   return (
-    <section className='container-fluid p-0'>
-      <Navbar/>
+    <section className='container-fluid p-0' id='contact'>
+      {/* <Navbar/> */}
       <div className='row'>
         <Display
             image = {message} 

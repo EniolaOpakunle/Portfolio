@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 function Navbar() {
-  return (
+  return ( 
     <nav className="navbar navbar-expand-lg bg-dark">
-    <div className="container-fluid">
-      <a className="navbar-brand text-light" href="#">EnnyHub</a>
+    <div className="container-fluid ">
+      <a className="navbar-brand" href="#">EnnyHub</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -14,14 +15,19 @@ function Navbar() {
           <li className="nav-item mx-5">
             <Link className="nav-link active text-light" aria-current="page" to={'/'}>Home</Link>
           </li>
-          <li className="nav-item mx-5">
+          {/* <li className="nav-item mx-5">
             <Link className="nav-link text-light" to={'/profile'} >Profile</Link>
           </li>
           <li className="nav-item mx-5">
             <Link className="nav-link text-light" to={'/projects'}> Projects </Link>
+
+          </li> */}
+          <li className="nav-item mx-5">
+            <Link className="nav-link text-light" to='contact' smooth = {true} duration = {1000}> Contacts</Link>
           </li>
           <li className="nav-item mx-5">
-            <Link className="nav-link text-light" to={'/contact'}> Contacts</Link>
+            <Link className="nav-link text-light" to='projects' smooth = {true} duration = {1000}> Projects </Link>
+
           </li>
         </ul>
       </div>
