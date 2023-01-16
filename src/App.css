@@ -1,40 +1,76 @@
+body{
+  width: 100%;
+}
 /*home.js css */
-/* #main{ */
-  /* background-color: black; */
-/* }
- */
+#name{
+  color: rgb(8, 8, 78) !important;
+  
+}
+#displayDiv{
+  background-color: white !important;
+}
+
  .profilePicture{
   /* justify-content: right; */
   align-items: center !important;
  }
+ #displayDiv{
+  margin-top: 0 !important;
+ }
+ #descript-block{
+  /* border: 1px gold solid !important; */
+  margin-inline: 30px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.text{
+  font-size: 22px !important;
+}
 /* app.js css */
+#overall{
+  background-color: white;
+}
 .title{
-  color: gold;
+  color: rgb(8, 8, 78) !important;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+/* navbar.js css */
+.nav-link{
+  color: rgb(8, 8, 78) !important;
+  font-size: 20px !important;
+}
+.nav-link:hover{
+   background-color:rgb(8, 8, 78) !important ;
+   color: white !important;
 }
 .navbar-nav{
-  margin-left: 400px;
+  margin-left: 600px;
 }
 .navbar{
   /* position: relative; */
   position: fixed ;
 }
 .navbar-brand{
+  font-weight: bold;
+  font-size: 30px !important;
   margin-left: 50px;
-  color: gold !important;
+  color: rgb(8, 8, 78) !important;
 }
 .row{
-  justify-content: center;
+  justify-content: center !important;
 }
 footer{
   /* height: 20px; */
-  background-color: black;
-  border-top: 1px solid gold;
+  background-color: white;
+  border-top: 1px solid rgb(8, 8, 78);
   justify-content: center;
     
 }
 /* card css */
 .card-img-top{
-  background-size: cover;
+  background-size: cover;   
 }
 .card-body{
   justify-content: space-between;
@@ -43,9 +79,20 @@ footer{
   text-decoration: none;
   font-size: small;
 }
-#descript-block{
-  border: 1px gold solid !important;
+#card-div{
+  margin-bottom: 40px !important;
+  margin-right: 20px !important;
+  font-size: 22px !important;
 }
+/* contact.js css */
+#contact{
+  color: rgb(8, 8, 78) !important;
+}
+.contact{
+  border: thin solid rgb(8, 8, 78);
+  color: rgb(8, 8, 78) !important;
+}
+
   /* @media (max-width: screen-xs-max){ */
     /* .row{
       

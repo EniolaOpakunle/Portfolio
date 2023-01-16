@@ -8,7 +8,7 @@ import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
-    <div>
+    <div id='overall'>
       <Home/>
       <div>
         <p className='text-center title'>Projects</p>
