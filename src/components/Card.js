@@ -7,7 +7,7 @@ function Card(props) {
       <div className='card-body d-flex'>
         <div className=''>
           <p className='card-text mt-2'>{props.title}</p>
-          <a href="" className='text-dark card-link'>Visit Site</a>
+          <a href="" className='text-dark card-link '>Visit Site</a>
         </div>
         <a href="" className='mt-2' id='cardHref'><img src = {linkImage} alt=""  style= {{width: '15px'}} id='cardHref'/></a>
       </div>

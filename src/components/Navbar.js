@@ -30,7 +30,8 @@ function Navbar() {
 
           </li>
           <li className="nav-item mx-3">
-            <Link className="nav-link" to='contact' smooth = {true} duration = {1000}> Contacts</Link>
+            {/* <Link className="nav-link" to='contact' smooth = {true} duration = {1000}> Contacts</Link> */}
+            <a href="/#contact">contact</a>
           </li>
         </ul>
       </div>
