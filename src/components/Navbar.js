@@ -4,34 +4,30 @@ import { Link } from 'react-scroll'
 
 function Navbar() {
   return ( 
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg ">
     <div className="container-fluid ">
-      <a className="navbar-brand" href="#">EnnyHub</a>
+      <a className="navbar-brand" href="#">EnnyHub.</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item mx-3">
-            <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link>
+            {/* <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link> */}
+            <a href="/#" className='nav-link active' aria-current = "page"> Home</a>
           </li>
-          {/* <li className="nav-item mx-5">
-            <Link className="nav-link text-light" to={'/profile'} >Profile</Link>
-          </li>
-          <li className="nav-item mx-5">
-            <Link className="nav-link text-light" to={'/projects'}> Projects </Link>
-
-          </li> */}
-          <li className="nav-item mx-3">
-            <Link className="nav-link" to='contact' smooth = {true} duration = {1000}> Contacts</Link>
+          <li>
+            <a href="/#about" className='nav-link'> About me</a>
           </li>
           <li className="nav-item mx-3">
-            <Link className="nav-link" to='projects' smooth = {true} duration = {1000}> Projects </Link>
+            <a href="/#projects" className='nav-link' >Projects</a>
 
           </li>
           <li className="nav-item mx-3">
-            {/* <Link className="nav-link" to='contact' smooth = {true} duration = {1000}> Contacts</Link> */}
-            <a href="/#contact">contact</a>
+            <a href="/#contact" className='nav-link'>contact</a>
+          </li>
+          <li className='nav-item button rounded-pill px-2'>
+            <a href=" " className='nav-link'>Download CV</a>
           </li>
         </ul>
       </div>

@@ -13,6 +13,9 @@ function Projects() {
   return (
     <Zoom>
     <section className='container-fluid p-0 position-relative'id='projects' style={{animationFillMode: 'both'}}>
+      <div>
+          <p className='text-center title'>Projects</p>
+        </div>
       {/* <Navbar/> */}
       <div className='row m-2'>
         <Card className = ''

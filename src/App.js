@@ -10,13 +10,7 @@ function App() {
   return (
     <div id='overall'>
       <Home/>
-      <div>
-        <p className='text-center title'>Projects</p>
-      </div>
       <Projects/>
-      <div>
-        <p className='text-center title'>Contact</p>
-      </div>
       <Contact/>
     </div>
     // <Routes>

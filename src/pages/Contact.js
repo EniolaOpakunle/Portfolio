@@ -12,6 +12,9 @@ import gitHubImage from '../images/GitHub.png'
 function Contact() {
   return (
     <section className='container p-0' id='contact'>
+      <div>
+        <p className='text-center title'>Contact</p>
+      </div>
       {/* <Navbar/> */}
       <div className='row'>
         <Display

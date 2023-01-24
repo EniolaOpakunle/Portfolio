@@ -1,8 +1,9 @@
 body{
   -webkit-box-align: center !important;
   align-items: center !important;
-  background-color: rgb(237, 249, 254) !important;
+  /* background-color: rgb(237, 249, 254) !important; */
   width: 100%;
+  font-family: sans-serif;
 }
 /*home.js css */
 @keyframes slideInLeft {
@@ -19,30 +20,62 @@ body{
 #projects{
   animation: 1s ease-out 0s 1 slideInLeft;
 } */
-#name{
-  color: rgb(8, 8, 78) !important;
-  
+#main{
+  background-color: rgb(255, 133, 83) !important;
 }
 #displayDiv{
-  background-color: white !important;
+  /* background-color: rgb(255, 133, 83) !important; */
+  color: white !important;
 }
 
  .profilePicture{
   /* justify-content: right; */
   align-items: center !important;
+  width: 300px !important ;
+  height: 300px !important;
+  border: thick solid white;
+  margin-right: 30px;
+  /* border-radius: 20px; */
  }
  #displayDiv{
-  margin-top: 0 !important;
+  margin-top: 110px  !important;
+  margin-bottom: 100px;
+  justify-content: end !important;
  }
  #descript-block{
   /* border: 1px gold solid !important; */
   margin-inline: 30px;
   margin-top: 100px;
-  margin-bottom: 30px;
+  /* margin-left: 50px; */
+  /* margin-bottom: 50px; */
+}
+#name{
+  font-size: 50px !important;
+}
+#subname{
+  margin-top: -30px !important;
+  font-size: 50px;
 }
 .text{
-  font-size: 22px !important;
+  font-size: 30px !important;
 }
+.main-bottom{
+  margin-bottom: 20px !important;
+  color: white !important;
+  justify-content: flex-end !important; 
+  font-size: 16px;  
+}
+.main-bottom-div{
+  margin-left: 550px;
+  margin-bottom: 80px !important;
+}
+.div-head{
+  font-size: 18px ;
+}
+.div-value{
+  font-size: 22px;
+}
+
 /* app.js css */
 #overall{
   background-color: white;
@@ -54,26 +87,33 @@ body{
   margin-bottom: 40px;
 }
 /* navbar.js css */
-.nav-link{
-  color: rgb(8, 8, 78) !important;
-  font-size: 20px !important;
+nav{
+  position: sticky;
 }
-.nav-link:hover{
-   background-color:rgb(8, 8, 78) !important ;
-   color: white !important;
+.nav-link{
+  /* color: rgb(8, 8, 78) !important; */
+  color: white !important;
+  font-size: 15px !important;
 }
 .navbar-nav{
-  margin-left: 600px;
+  margin-left: 320px;
 }
 .navbar{
   /* position: relative; */
   position: fixed ;
+  /* background-color: rgb(8, 8, 78) !important; */
+  background-color: rgb(255, 133, 83) !important;
 }
 .navbar-brand{
   font-weight: bold;
   font-size: 30px !important;
-  margin-left: 50px;
-  color: rgb(8, 8, 78) !important;
+  margin-left: 40px;
+  /* color: rgb(8, 8, 78) !important; */
+  color: white !important;
+}
+.button{
+  border: thin solid white ;
+  margin-left: 250px;
 }
 .row{
   justify-content: center !important;
