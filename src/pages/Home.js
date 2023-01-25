@@ -4,7 +4,7 @@ import profilePics from '../images/A.jpg'
 function Home() {
   return (
     <section id='main'className='container-fluid'>
-       <Navbar/>
+       <Navbar className=''/>
        <div className='row mt-2' id='displayDiv'>
            <div className='col-lg-3 profilePicture rounded-circle text-center'>
             <div className=''>

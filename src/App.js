@@ -10,7 +10,8 @@ function App() {
   return (
     <div id='overall'>
       <Home/>
-      <Projects/>
+      <Profile/>
+      {/* <Projects/> */}
       <Contact/>
     </div>
     // <Routes>
