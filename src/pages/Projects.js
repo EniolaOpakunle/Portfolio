@@ -14,48 +14,23 @@ function Projects() {
     <Zoom>
     <section className='container-fluid w-75'id='projects' style={{animationFillMode: 'both'}}>
       <div>
-          <p className='name'>Projects</p>
+        <p className='name my-5'>My Works</p>
+        <div className='row project-div'>
+          <div className='col-lg-6 my-4'>
+            <img src={loveImage} alt="" className='w-100 w-image'/>
+          </div>
+          <div className='col-lg-6  my-4'>
+            <img src={foodIncImage} alt="" className='w-100 w-image' />
+          </div>
+          <div className='col-lg-6 my-4'>
+            <img src={stopWatchImage} alt="" className='w-100 w-image'/>
+          </div> 
+          <div className='col-lg-6 my-4'>
+            <img src={quizAppImage} alt="" className='w-100 w-image' />
+          </div>
         </div>
-      {/* <Navbar/> */}
-      <div className='row m-2'>
-        <Card className = ''
-          image = {foodIncImage}
-          title = {'FoodInc'} 
-          color = {'rgb(204, 153, 102)'} 
-          details = {'A React.js  food application that allows a user to get a food timetable, get food recipes. In the premimum versio, you can get food according to your health version . The premimum is unlocked once with $50 '}
-        />
-        <Card className = 'm-2'
-          image = {loveImage}
-          title = {'Love calculator'} 
-          color = {'pink'}
-          link = {''}
-          details = {'This is a Node.js application that help to check love compartibility using a mathematical function. It allows you to create your own account and a history of names you have matchmaked'}
-        />
-        <Card
-          image = {quizAppImage}
-          title = {'CBT Engine'}
-          color = {'rgb(153, 204, 255)'}
-          details = {'A React.js CBT engine that allows user to set question and take test. At the end of the test, the result is displayed. '}
-        />
-        <Card
-          image={numberImage}
-          title = {'Random Number Generator'}
-          color = {'rgb(204, 51, 255)'}
-          details = {'It generates a numm'}
-        />
-        <Card
-          image={calculationImage}
-          color = {'brown'}
-          title = {'Calculation table'}
-          details = {'A calcualtion table any specified operation '}
-        />
-        <Card
-          image={stopWatchImage}
-          color = {'yellow'}
-          title = {'Stop Watch'}
-          details = {'a stopwatch'}
-        />
       </div>
+
     </section>
     </Zoom>
   )

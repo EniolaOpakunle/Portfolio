@@ -241,6 +241,13 @@ footer{
 .copyright{
   color: white;
 }
+/* Project.js css */
+.w-image{
+  height: 300px;
+}
+.project-div{
+  margin-bottom: 200px;
+}
 
   /* @media only screen and (min-width: 600px) {
     .card-body{

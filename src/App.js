@@ -11,16 +11,9 @@ function App() {
     <div id='overall'>
       <Home/>
       <Profile/>
-      {/* <Projects/> */}
+      <Projects/>
       <Contact/>
     </div>
-    // <Routes>
-    //   <Route path='/' element = {<Home/>}/>
-    //   <Route path='/profile' element = {<Profile/>}/>
-    //   <Route path='/projects' element = {<Projects/>} />
-    //   <Route path='/contact' element = {<Contact/>} />
-    //   <Route path='*' element = {<PageNotFound/>} />
-    // </Routes>
   );
 }
 
