@@ -40,12 +40,26 @@ function Contact() {
           </div>
         </div>
         <div className='row footer'>
-          <div className='col-lg-6 copyright'>
+          <div className='col-lg-5 copyright'>
             <p>Copyright @ 2023 All right reserved. This website is made by Ennyhub</p>
           </div>
-          <div className='col-lg-6 '>
+          <div className='col-lg-7 nav-div'>
             <nav>
-              
+              <ul className="nav">
+                <li className="nav-item mx-3">
+                  <a href="/#" className='nav-link active c-navLink' aria-current = "page"> Home</a>
+                </li>
+                <li>
+                  <a href="/#about" className='nav-link c-navLink'> About me</a>
+                </li>
+                <li className="nav-item mx-3">
+                  <a href="/#projects" className='nav-link c-navLink' >Projects</a>
+
+                </li>
+                <li className="nav-item mx-3">
+                  <a href="/#contact" className='nav-link c-navLink'>contact</a>
+                </li>
+              </ul>
             </nav>
           </div>
         </div>
