@@ -12,9 +12,9 @@ import numberImage from '../images/number.jpg'
 function Projects() {
   return (
     <Zoom>
-    <section className='container-fluid p-0 position-relative'id='projects' style={{animationFillMode: 'both'}}>
+    <section className='container-fluid w-75'id='projects' style={{animationFillMode: 'both'}}>
       <div>
-          <p className='text-center title'>Projects</p>
+          <p className='name'>Projects</p>
         </div>
       {/* <Navbar/> */}
       <div className='row m-2'>
