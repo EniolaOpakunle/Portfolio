@@ -10,9 +10,34 @@ function Profile() {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, delectus quasi? Totam eligendi animi unde beatae, iure explicabo eaque error numquam. Tempore nisi ullam libero aperiam ut inventore praesentium consectetur!</p>
           <p className='profile-highlight'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, iusto ipsa explicabo distinctio aliquid assumenda inventore facilis a doloribus maxime. Recusandae, amet dolor? Quae alias eaque reprehenderit quam aliquam porro.</p>
         </div>
-        <div className='w-50'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt culpa temporibus tenetur veritatis consequatur minima ratione aliquid, qui laboriosam ipsa. Quibusdam voluptatem rem, minima id cupiditate totam ipsa optio?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, atque nobis voluptatibus blanditiis sapiente quod inventore error quis soluta iste porro! Laborum eos quo reiciendis unde quaerat placeat eveniet quod.</p>
+        <div className='w-50 mx-2'>
+          <div className='my-3'>
+            <div className='d-flex justify-content-between'>
+              <p className='skill'>Frontend Web Development</p>
+              <p>80%</p>
+            </div>
+            <div className='scale-div w-100 rounded-pill'>
+              <p className='percentage frontend rounded-pill'></p>
+            </div>
+          </div>
+          <div className='my-3'>
+            <div className='d-flex justify-content-between'>
+              <p className='skill'>Word Press</p>
+              <p>80%</p>
+            </div>
+            <div className='scale-div w-100 rounded-pill'>
+              <p className='percentage word-press rounded-pill'></p>
+            </div>
+          </div>
+          <div className='my-3'>
+            <div className='d-flex justify-content-between'>
+              <p className='skill'>Frontend Web Development</p>
+              <p>80%</p>
+            </div>
+            <div className='scale-div w-100 rounded-pill'>
+              <p className='percentage backend rounded-pill'></p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

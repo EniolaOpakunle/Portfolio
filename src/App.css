@@ -161,12 +161,28 @@ body{
   justify-content: center !important;
   align-items: center !important;
 }
-footer{
-  /* height: 20px; */
-  background-color: white;
-  border-top: 1px solid rgb(8, 8, 78);
-  justify-content: center;
-    
+.skill{
+  /* font-size: 20px; */
+}
+.scale-div{
+  /* width: 100%; */
+  background-color: #ddd;
+  /* font-size: 20px; */
+  height: 5px;
+}
+.percentage{
+  /* text-align: right; */
+  height: 5px;
+  background-color: rgb(255, 133, 83);
+}
+.frontend{
+  width: 70%;
+}
+.word-press{
+  width: 80%;
+}
+.backend{
+  width: 90%;
 }
 /* card css */
 .card-img-top{
@@ -284,6 +300,16 @@ footer{
   border: thin solid rgb(255, 133, 83);
   background-color: white;
   margin: auto !important;
+  transition-property: background-color, color;
+  transition-delay: 0s;
+  /* transform-origin: 1px top; */
+  transition-duration: 0.6s;
+  transition-timing-function: linear;
+
+}
+#moreWork-btn:hover{
+  background-color :rgb(255, 133, 83);
+  color: white;
 }
 #projects{
   /* position: relative !important; */
