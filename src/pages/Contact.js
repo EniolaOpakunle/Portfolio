@@ -17,16 +17,16 @@ function Contact() {
             <p className='contact-text'>Building amazing and well functioning website that captivates the heart </p>
             <div className='d-flex social'>
               <p className='image-cont'>
-                <a href=""><img src={twitterImage} className='social-image'/></a>
+                <a href=" https://twitter.com/OpakunleDeborah?s=08"><img src={twitterImage} className='social-image'/></a>
               </p>
               <p className='image-cont mx-2'>
-                <a href=""><img src={gitHubImage} className='social-image'/></a>
+                <a href="https://github.com/EniolaOpakunle"><img src={gitHubImage} className='social-image'/></a>
               </p >
               <p className='image-cont mx-2'>
-                <a href=""><img src={facebookImage} className='social-image' /></a>
+                <a href="https://www.facebook.com/olajumoke.gift.9"><img src={facebookImage} className='social-image' /></a>
               </p>
               <p className='image-cont mx-2'>
-                <a href=""><img src={linkedInImage} className= 'social-image' /></a>
+                <a href="https://www.linkedin.com/in/deborah-opakunle-3b3b78209"><img src={linkedInImage} className= 'social-image' /></a>
               </p>
             </div>
           </div>

@@ -21,32 +21,46 @@ body{
   animation: 1s ease-out 0s 1 slideInLeft;
 } */
 #main{
+  /* margin-top: 30px; */
   background-color: rgb(255, 133, 83) !important;
+  /* position: absolute; */
+  /* margin-top: 0% !important; */
   
-}
-#displayDiv{
-  /* background-color: rgb(255, 133, 83) !important; */
-  color: white !important;
 }
 
  .profilePicture{
   /* justify-content: right; */
   align-items: center !important;
-  width: 250px !important ;
-  height: 250px !important;
+  width: 350px !important ;
+  height: 350px !important;
   border: thick solid white;
   margin-right: 30px;
+  margin-top: 200px !important;
   /* border-radius: 20px; */
  }
+ #profileImage{
+  width: 320px;
+  height: 320px;
+  margin-top: 9px !important;
+  margin-right: 2px;
+ }
  #displayDiv{
-  margin-top: 110px  !important;
+  /* position: absolute; */
+  /* margin-top: 110px  !important; */
+  /* margin-bottom: 100px; */
+  /* justify-content: end !important; */
+  color: white !important;
+ }
+ #displayDiv2{
+  /* margin-top: 110px !important; */
   margin-bottom: 100px;
   justify-content: end !important;
+  /* position: relative; */
  }
  #descript-block{
   /* border: 1px gold solid !important; */
   margin-inline: 30px;
-  margin-top: 100px;
+  margin-top: 180px;
   /* margin-left: 50px; */
   /* margin-bottom: 50px; */
 }
@@ -88,13 +102,7 @@ body{
   margin-bottom: 40px;
 }
 /* navbar.js css */
-nav{
-  /* position: fixed !important; */
-  /* z-index: 4 !important; */
-  /* margin: -100px !important; */
-  /* position: fixed !important; */
-  width: 100% !important;
-}
+
 .nav-link{
   /* color: rgb(8, 8, 78) !important; */
   /* text-decoration: none; */
@@ -115,10 +123,13 @@ nav{
   margin-left: 320px;
 }
 .navbar{
+  /* z-index: -7 !important; */
+  /* margin-top: -110px  !important; */
   /* position: relative; */
-  /* position: fixed ; */
+  position: fixed  !important   ;
   /* background-color: rgb(8, 8, 78) !important; */
   background-color: rgb(255, 133, 83) !important;
+  width: 100% !important;
 }
 .navbar-brand{
   font-weight: bold;
@@ -161,16 +172,24 @@ footer{
 .card-img-top{
   background-size: cover;   
 }
-.card-body{
-  justify-content: space-between;
-}
+
 .card-link{
   text-decoration: none;
   font-size: small;
 }
+.card-title{
+  font-size: 25px;
+}
+.card-body{
+  /* margin-top: -150px !important; */
+  justify-content: space-between;
+  /* position: absolute; */
+}
 #card-div{
-  margin-bottom: 40px !important;
-  margin-right: 20px !important;
+  position: relative;
+  /* background-image: ; */
+  /* margin-bottom: 40px !important; */
+  /* margin-right: 20px !important; */
   font-size: 22px !important;
   /* transition: width 1s, height 1s; */
 }
@@ -256,6 +275,9 @@ footer{
 }
 .project-div{
   margin-bottom: 200px;
+}
+#projects{
+  /* position: relative !important; */
 }
 
   /* @media only screen and (min-width: 600px) {
