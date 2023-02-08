@@ -235,7 +235,6 @@ footer{
   margin-top: 70px !important;
 }
 .div-2{
-  /* margin-top: 20px !important; */
   justify-content: center;
 }
 .social{
@@ -246,8 +245,6 @@ footer{
   width: 20px;
 }
 .image-cont{
-  /* width: 40px; */
-  /* height: 40px; */
   padding: 6px;
   text-align: center;
   border-radius: 5px !important;
@@ -256,7 +253,6 @@ footer{
 .footer{
   margin-top: 20px !important;
   justify-content: space-between !important;
-  /* margin-bottom: 20px !important; */
 }
 .copyright{
   color: white;
@@ -274,7 +270,20 @@ footer{
   height: 300px;
 }
 .project-div{
-  margin-bottom: 200px;
+  margin-bottom: 50px;
+}
+#btn-div{
+  display: grid;
+  margin-bottom: 250px;
+}
+#btn-href{
+  margin: auto;
+}
+#moreWork-btn{
+  color: rgb(255, 133, 83);
+  border: thin solid rgb(255, 133, 83);
+  background-color: white;
+  margin: auto !important;
 }
 #projects{
   /* position: relative !important; */

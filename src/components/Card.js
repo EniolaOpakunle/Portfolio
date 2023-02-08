@@ -17,8 +17,9 @@ function Card(props) {
             <a href="" className='image-cont mx-2'>
               <img src={linkImage} alt="" style={{width: '20px'}} />
             </a>
-            <a href="" className='image-cont'>
+            <a href="https://github.com/EniolaOpakunle" className='image-cont'>
               <img src= {githubImage} alt="" style={{width: '20px'}} />
+              {/* <p className='image-cont-text'>visit site</p> */}
             </a>
           </div>
 

@@ -35,6 +35,11 @@ function Projects() {
             />
           </div>
         </div>
+        <div id='btn-div'>
+          <a href="" id='btn-href'>
+            <button className='px-5 py-3 rounded-pill m-auto' id='moreWork-btn' >More Work</button>
+          </a>
+        </div>
       </div>
 
     </section>
