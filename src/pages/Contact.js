@@ -31,9 +31,11 @@ function Contact() {
             </div>
           </div>
           <div className='col-lg-6 div-2 d-flex'>
-            <button className='download-btn rounded-pill py-2 px-4 mx-4'>
-              Download CV
-            </button>
+            <a href="https://drive.google.com/file/d/13ItrNdROvs6B4D4zYv1pS5ca0ylz4vqa/view?usp=share_link" >
+              <button className='download-btn rounded-pill py-2 px-4 mx-4'> Download CV
+              </button>
+            </a>
+            
             <button className='talk-btn rounded-pill px-4 py-2'>
               Let's Talk
             </button>
@@ -46,17 +48,17 @@ function Contact() {
           <div className='col-lg-7 nav-div'>
             <nav>
               <ul className="nav">
-                <li className="nav-item mx-3">
-                  <a href="/#" className='nav-link active c-navLink' aria-current = "page"> Home</a>
+                <li className="nav-item c-navItem">
+                  <a href="/#" className='nav-link active' aria-current = "page"> Home</a>
                 </li>
-                <li>
+                <li className='c-navItem'>
                   <a href="/#about" className='nav-link c-navLink'> About me</a>
                 </li>
-                <li className="nav-item mx-3">
+                <li className="nav-item c-navItem">
                   <a href="/#projects" className='nav-link c-navLink' >Projects</a>
 
                 </li>
-                <li className="nav-item mx-3">
+                <li className="nav-item c-navItem">
                   <a href="/#contact" className='nav-link c-navLink'>contact</a>
                 </li>
               </ul>

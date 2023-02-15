@@ -28,7 +28,7 @@ function Navbar() {
                   <a href="/#contact" className='nav-link'>contact</a>
                 </li>
                 <li className='nav-item button rounded-pill px-2'>
-                  <a href=" " className='nav-link'>Download CV</a>
+                  <a href="https://drive.google.com/file/d/13ItrNdROvs6B4D4zYv1pS5ca0ylz4vqa/view?usp=share_link" className='nav-link'>Download CV</a>
                 </li>
               </ul>
             </div>

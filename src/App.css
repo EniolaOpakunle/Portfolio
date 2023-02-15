@@ -6,14 +6,7 @@ body{
   font-family: sans-serif;
 }
 /*home.js css */
-@keyframes slideInLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
+
 /* #displayDiv{
   animation: 1s ease-out 0s 1 slideInLeft;
 }
@@ -80,7 +73,7 @@ body{
   justify-content: flex-end !important; 
   font-size: 16px;  
 }
-.main-bottom-div{
+.main-bottom-div1{
   margin-left: 550px;
   margin-bottom: 80px !important;
 }
@@ -151,6 +144,12 @@ body{
 .name{
   font-size: 45px;
 }
+.profile{
+  width: 50% !important;
+}
+.skill-div{
+  width: 50% !important;
+}
 #profile-head{
   margin-bottom: 30px;
 }
@@ -160,9 +159,6 @@ body{
 .row{
   justify-content: center !important;
   align-items: center !important;
-}
-.skill{
-  /* font-size: 20px; */
 }
 .scale-div{
   /* width: 100%; */
@@ -281,6 +277,10 @@ body{
 .nav-div{
   margin-top: -20px !important;
 }
+.c-navItem{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
 /* Project.js css */
 .w-image{
   height: 300px;
@@ -311,19 +311,323 @@ body{
   background-color :rgb(255, 133, 83);
   color: white;
 }
-#projects{
-  /* position: relative !important; */
+@media screen and (max-width: 600px) {
+  #main{
+    width: 100% !important;
+  }
+  .profilePicture{
+    /* margin: auto !important; */
+  /* justify-content: right; */
+  align-items: center !important;
+  justify-content: center !important;
+  width: 250px !important ;
+  height: 250px !important;
+  border: thick solid white;
+  /* margin: 0, 0, 0, 0; */
+  /* margin-right: 30px; */
+  margin-right: 0px;
+  margin-left: 0px !important;
+  margin-bottom: 0px;
+  margin-top: 120px !important;
+  /* border-radius: 20px; */
+ }
+ #profileImage{
+  width: 220px;
+  height: 220px;
+  margin-top: 9px !important;
+  margin-right: 2px;
+ }
+  #displayDiv{
+  /* position: absolute; */
+  /* margin-top: 110px  !important; */
+  /* margin-bottom: 100px; */
+  justify-content: center !important;
+  color: white !important;
+ }
+ #displayDiv2{
+  /* margin-top: 110px !important; */
+  /* margin-bottom: 100px !important;  */
+  justify-content: center !important;
+  /* margin: auto; */
+  /* position: relative; */
+ }
+ #descript-block{
+  /* border: 1px gold solid !important; */
+  margin-inline: 30px;
+  margin-top: 0px !important;
+  /* margin: auto !important; */
+  /* margin-left: 50px; */
+  /* margin-bottom: 50px; */
+}
+#name{
+  margin-top: 20px !important;
+  margin-bottom: 25px;
+  font-size: 30px !important;
+}
+#subname{
+  margin-top: -30px !important;
+  font-size: 30px;
+}
+.text{
+  font-size: 22px !important;
+}
+.main-bottom{
+  margin-bottom: 20px !important;
+  color: white !important;
+  justify-content: center !important; 
+  font-size: 16px;  
+  margin: auto !important;
+}
+.main-bottom-div1{
+  width: 100% !important;
+  justify-content: center;
+  margin-left: 0px;
+  margin-bottom: 0px !important;
+}
+.main-bottom-div2{
+  width: 100% !important;
+  margin-bottom: 20px !important;
+
+}
+.div-head{
+  font-size: 18px ;
+}
+.div-value{
+  font-size: 20px;
 }
 
-  /* @media only screen and (min-width: 600px) {
-    .card-body{
-      font-size: 35px !important;
-      padding: 1px !important;
-    }
-    .card-link{
-      font-size: 30px !important;
-    }
-    .card-div{
-      height: 200px !important;
-    }
-  } */
+/* app.js css */
+#overall{
+  background-color: white;
+}
+.title{
+  color: rgb(8, 8, 78) !important;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+/* navbar.js css */
+
+.nav-link{
+  /* color: rgb(8, 8, 78) !important; */
+  /* text-decoration: none; */
+  border: none;
+  color: white !important;
+  font-size: 15px !important;
+  transition-duration: 0.6s;
+  transition-property: all;
+  transition-delay: 0;
+  transition-timing-function: ease;
+}
+.nav-link:hover{
+  /* text-decoration: solid underline white; */
+  border: 0 0 1px 0 white solid;
+}
+
+.navbar-nav{
+  margin-left: 320px;
+}
+.navbar{
+  /* z-index: -7 !important; */
+  /* margin-top: -110px  !important; */
+  /* position: relative; */
+  position: fixed  !important   ;
+  /* background-color: rgb(8, 8, 78) !important; */
+  background-color: rgb(255, 133, 83) !important;
+  /* width: 100% !important; */
+}
+.navbar-brand{
+  font-weight: bold;
+  font-size: 30px !important;
+  margin-left: 20px;
+  /* color: rgb(8, 8, 78) !important; */
+  color: white !important;
+}
+.button{
+  border: thin solid white ;
+  margin-left: 250px;
+}
+/* profile.js */
+#about{
+  width: 100% !important;
+  margin: auto;
+  margin-top: 80px !important;
+  /* margin-bottom: 80px; */
+}
+/* .g-div{
+  width: 100% !important;
+} */
+.profile{
+  width: 100% !important;
+  margin: auto !important;
+  /* display: block !important; */
+}
+.skill-div{
+  width: 100% !important;
+  margin: auto !important;
+}
+.name{
+  font-size: 25px;
+}
+#profile-head{
+  margin-bottom: 30px;
+}
+.profile-highlight{
+  color:  rgb(255, 133, 83);
+}
+.row{
+  justify-content: center !important;
+  align-items: center !important;
+}
+.scale-div{
+  /* width: 100%; */
+  background-color: #ddd;
+  /* font-size: 20px; */
+  height: 5px;
+}
+.percentage{
+  /* text-align: right; */
+  height: 5px;
+  background-color: rgb(255, 133, 83);
+}
+.frontend{
+  width: 70%;
+}
+.word-press{
+  width: 80%;
+}
+.backend{
+  width: 90%;
+}
+/* card css */
+.card-img-top{
+  background-size: cover;   
+}
+
+.card-link{
+  text-decoration: none;
+  font-size: small;
+}
+.card-title{
+  font-size: 20px;
+}
+.card-body{
+  /* margin-top: -150px !important; */
+  justify-content: space-between;
+  /* position: absolute; */
+}
+#card-div{
+  position: relative;
+  /* background-image: ; */
+  /* margin-bottom: 40px !important; */
+  /* margin-right: 20px !important; */
+  font-size: 22px !important;
+  /* transition: width 1s, height 1s; */
+}
+/* contact.js css */
+#contact{
+  background-color: black;
+}
+.talk-btn{
+  background-color: rgb(255, 133, 83) ;
+  color: white;
+  font-size: 13px;
+}
+.download-btn{
+  background-color: black;
+  color: white;
+  border: thin solid white;
+  font-size: 13px;
+  transition-property: color;
+  transition-duration: 0.4s ;
+  transition-delay:0s ;
+  transition-timing-function: linear;
+}
+.download-btn:hover{
+  color:rgb(255, 133, 83) ;
+  /* margin-left: 00px !important;
+   */
+  
+}
+.contact-name{
+  color: rgb(255, 133, 83) ;
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact-text{
+  color: white;
+}
+.c-flex{
+  justify-content:space-between;
+  /* margin: auto; */
+  margin-top: 20;
+}
+.div-1{
+  margin-top: 70px !important;
+}
+.div-2{
+  justify-content: center;
+}
+.social{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.social-image{
+  width: 20px;
+}
+.image-cont{
+  padding: 6px;
+  text-align: center;
+  border-radius: 5px !important;
+  background-color: rgb(255, 133, 83,  0.15);
+}
+.footer{
+  margin-top: 20px !important;
+  justify-content: space-between !important;
+}
+.copyright{
+  color: white;
+  font-size: 13px;
+}
+.nav{
+  justify-content: center;
+  font-size: 12px !important;
+}
+.nav-div{
+  margin-top: -20px !important;
+}
+.c-navItem{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+/* Project.js css */
+.w-image{
+  height: 200px !important;
+}
+.project-div{
+  margin-bottom: 50px;
+}
+#btn-div{
+  display: grid;
+  margin-bottom: 250px;
+}
+#btn-href{
+  margin: auto;
+}
+#moreWork-btn{
+  color: rgb(255, 133, 83);
+  border: thin solid rgb(255, 133, 83);
+  background-color: white;
+  margin: auto !important;
+  transition-property: background-color, color;
+  transition-delay: 0s;
+  /* transform-origin: 1px top; */
+  transition-duration: 0.6s;
+  transition-timing-function: linear;
+
+}
+#moreWork-btn:hover{
+  background-color :rgb(255, 133, 83);
+  color: white;
+}
+}

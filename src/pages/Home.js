@@ -19,12 +19,12 @@ function Home() {
                   {/* <p className='text'>I am Frontend developer. I love building beautiful, functional and responsive websites. I am proficient in HTML, CSS, Bootstrap, SASS, Javascript, React.js, Angular.js, Node.js , Git and Github. I am a fast learner and I love learning new things </p> */}
               </div>
           </div>
-          <div className='d-flex main-bottom'>
-            <div className='w-50 main-bottom-div'>
+          <div className='d-lg-flex main-bottom'>
+            <div className='w-50 main-bottom-div1'>
               <p className='div-head'>Phone</p>
               <p className='div-value'>234-80-5942-6668</p>
             </div>
-            <div className='w-50'>
+            <div className='w-50 main-bottom-div2'>
               <p className='div-head'>Drop your Message</p>
               <p className='div-value'>opakunleeniolail2019@gmail.com</p>
             </div>
